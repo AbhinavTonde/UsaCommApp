@@ -1,0 +1,53 @@
+.userInfo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button{
+            padding: 15px;
+            background-color: rgba(248, 88, 88, 0.719);
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        
+            &:hover{
+                background-color: rgba(248, 88, 88, 0.881);
+            }
+
+            &.logout{
+                padding: 10px;
+                background-color: rgb(51, 94, 196);
+
+            }
+        }
+
+
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .icons{
+
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+    }
+
+}
